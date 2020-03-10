@@ -1,5 +1,5 @@
 # MC (Midnight Commander)
-A TUI (Text User interface) file management utility. Makes managing files easier then remember all the commands.
+Midnight Commander is a TUI (Text User interface) based console file management utility.
 
 ## mc (Project Info)
 [Website](https://midnight-commander.org/)
@@ -20,7 +20,7 @@ Note: requires `docker login`
 (Runs the application in the isolation of the container [no external access to the local filesystem])
 
 `$ docker run -it --rm -v $(pwd):/home/root --name mc macabees/mc`
-(Note: This version of the command grants access to the current directory on your local to the MC application)
+(Note: this command grants access to the current directory on your local filesystem to the 'mc' application running in the container)
 
 ## Help
 `$ docker run -it --rm macabees/mc --help`
